@@ -7,7 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class Assignment0Controller {
 
   @RequestMapping("/start")
-  public String helloWorld(){
+  public String startMap(){
+    return "start";
+  }
+  
+  @RequestMapping("/index")
+  public String indexMap(){
     return "start";
   }
 }
